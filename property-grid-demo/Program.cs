@@ -16,7 +16,7 @@ namespace property_grid_demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new OptionsDialog());
         }
     }
 }
