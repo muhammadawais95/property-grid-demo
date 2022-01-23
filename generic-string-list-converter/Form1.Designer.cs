@@ -1,6 +1,6 @@
-﻿namespace property_grid_demo
+﻿namespace generic_string_list_converter
 {
-    partial class FormMain
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -36,17 +36,18 @@
             this.propertyGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.propertyGrid1.Location = new System.Drawing.Point(0, 0);
             this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.Size = new System.Drawing.Size(284, 561);
+            this.propertyGrid1.Size = new System.Drawing.Size(418, 589);
             this.propertyGrid1.TabIndex = 0;
             // 
-            // FormMain
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 561);
+            this.ClientSize = new System.Drawing.Size(418, 589);
             this.Controls.Add(this.propertyGrid1);
-            this.Name = "FormMain";
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

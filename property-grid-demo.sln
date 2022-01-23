@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "property-grid-demo", "property-grid-demo\property-grid-demo.csproj", "{B2F06997-BA4C-4F63-9BFF-687CA5A74FE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "options-dialog", "property-grid-demo\options-dialog.csproj", "{B2F06997-BA4C-4F63-9BFF-687CA5A74FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generic-string-list-converter", "generic-string-list-converter\generic-string-list-converter.csproj", "{AD0EC1DD-6D9A-498A-ABC1-6DDDBCF9A96D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B2F06997-BA4C-4F63-9BFF-687CA5A74FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F06997-BA4C-4F63-9BFF-687CA5A74FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F06997-BA4C-4F63-9BFF-687CA5A74FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0EC1DD-6D9A-498A-ABC1-6DDDBCF9A96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0EC1DD-6D9A-498A-ABC1-6DDDBCF9A96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0EC1DD-6D9A-498A-ABC1-6DDDBCF9A96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0EC1DD-6D9A-498A-ABC1-6DDDBCF9A96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
