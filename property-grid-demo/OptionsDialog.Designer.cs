@@ -38,6 +38,7 @@
             this.optionsPropertyGrid.Name = "optionsPropertyGrid";
             this.optionsPropertyGrid.Size = new System.Drawing.Size(284, 561);
             this.optionsPropertyGrid.TabIndex = 0;
+            this.optionsPropertyGrid.PropertyValueChanged += new System.Windows.Forms.PropertyValueChangedEventHandler(this.optionsPropertyGrid_PropertyValueChanged);
             // 
             // OptionsDialog
             // 

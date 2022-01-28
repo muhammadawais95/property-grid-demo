@@ -22,5 +22,11 @@ namespace property_grid_demo
             var appSettings = new AppSettings();
             optionsPropertyGrid.SelectedObject = appSettings;
         }
+
+        private void optionsPropertyGrid_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
+        {
+            Console.WriteLine($"The changed item was {e.ChangedItem}");
+            var x = e.ChangedItem.GetType().GetProperty("Instance").GetValue(e.ChangedItem);
+        }
     }
 }
